@@ -22,13 +22,17 @@
   ### Training Process:
   - yolov8-nano, 20 epochs
     - Confusion Matrix(Normalized):
-      
+      ![image](model_kaggle_1700/confusion_matrix/confusion_matrix_normalized_20epochs.png)
   - yolov8-nano, 50 epochs
-    
+    - Confusion Matrix(Normalized):
+      ![image](model_kaggle_1700/confusion_matrix/confusion_matrix_normalized_50epochs.png)
   - yolov8-nano, 100 epochs
-    
+    - Confusion Matrix(Normalized):
+      ![image](model_kaggle_1700/confusion_matrix/confusion_matrix_normalized_100epochs.png)
   - yolov8-nano-pretrained, 50 epochs
-    
+    - Confusion Matrix(Normalized):
+      ![image](model_kaggle_1700/confusion_matrix/confusion_matrix_normalized_nano_pt_50.png)
   - yolov8-small-pretrained, 50 epochs
-  
+      - Confusion Matrix(Normalized):
+      ![image](model_kaggle_1700/confusion_matrix/confusion_matrix_normalized_small_pt_50.png)
   
