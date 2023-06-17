@@ -21,53 +21,85 @@
 
   ### Training Process:
   - yolov8-nano, 20 epochs
+    
     - Confusion Matrix(Normalized):
+      
       ![image](model_kaggle_1700/confusion_matrix/confusion_matrix_normalized_20epochs.png)
   - yolov8-nano, 50 epochs
+    
     - Confusion Matrix(Normalized):
+      
       ![image](model_kaggle_1700/confusion_matrix/confusion_matrix_normalized_50epochs.png)
   - yolov8-nano, 100 epochs
+    
     - Confusion Matrix(Normalized):
+      
       ![image](model_kaggle_1700/confusion_matrix/confusion_matrix_normalized_100epochs.png)
+      
   - yolov8-nano-pretrained, 50 epochs
+    
     - Confusion Matrix(Normalized):
+      
       ![image](model_kaggle_1700/confusion_matrix/confusion_matrix_normalized_nano_pt_50.png)
+      
   - yolov8-small-pretrained, 50 epochs
+    
       - Confusion Matrix(Normalized):
+        
       ![image](model_kaggle_1700/confusion_matrix/confusion_matrix_normalized_small_pt_50.png)
+    
   - All the training code in this part were uploaded to the model_kaggle_1700 folder.
 
   ### Results
     For testing dataset, let us see how each model performed on the certain picture:
   #### pic_2292
   - yolov8-nano, 20 epochs:
+    
     ![image](model_kaggle_1700/result/helm_002292_yolov8n_20.jpg)
+    
   - yolov8-nano, 50 epochs:
+    
     ![image](model_kaggle_1700/result/helm_002292_yolov8n_50.jpg)
+    
   - yolov8-nano, 100 epochs:
+    
     ![image](model_kaggle_1700/result/helm_002292_yolov8n_100.jpg)
+    
   - yolov8-nano-pretrained, 50 epochs:
+    
     ![image](model_kaggle_1700/result/helm_002292_yolov8n_pt.jpg)
+    
   - yolov8-small-pretrained, 50 epochs:
+    
     ![image](model_kaggle_1700/result/helm_002292_yolov8s_pt.jpg)
 
     What about during the same epochs, different models' performance:
   #### pic_2116 (with 2 helmet label and 1 head label)
+  
   - yolov8-nano, 50 epochs:
+    
     ![image](model_kaggle_1700/result/helm_002116_yolov8n_50.jpg)
+    
   - yolov8-nano-pretrained, 50 epochs:
+    
     ![image](model_kaggle_1700/result/helm_002116_yolov8n_pt.jpg)
+    
   - yolov8-small-pretrained, 50 epochs:
+    
     ![image](model_kaggle_1700/result/helm_002116_yolov8s_pt.jpg)
 
   ### GIF Version
   - original:
+    
     ![image](model_kaggle_1700/video/test1.gif)
   - yolov8-nano, 50 epochs:
+    
     ![image](model_kaggle_1700/video/test1_50nano.gif)
   - yolov8-nano-pretrained, 50 epochs:
+    
     ![image](model_kaggle_1700/video/test1_nano_pretrained.gif)
   - yolov8-small-pretrained, 50 epochs:
+    
     ![image](model_kaggle_1700/video/test1_small_50.gif)
 
     That's it! It's just for fun orz
