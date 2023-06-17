@@ -1,4 +1,4 @@
-# safety_helmet_detector-by-yolov8
+# safety_helmet_detector-by-yolov8 (By SamLi)
   This is a project trying to detect the safety-helmet by using Yolov8.
 ## Model 1: 50 imgs
   Since this model is absolutely overfitting, I would just show the confusion matrix in the following. This is just a beta model to experience the process of a cv detection work. For the labeling step, I just simply use the cvat.ai.
@@ -7,7 +7,7 @@
   ![image](model50/results/confusion_matrix_normalized.png)
   
 
-## Model 1: 1700 imgs
+## Model 2: 1700 imgs
   ### Dataset
   - website : https://www.kaggle.com/datasets/vodan37/yolo-helmethead (which has two types of label, one is safety_helmet, another one is simply just head (without safety_helmet))
   - data selection: I just literally simplified the natural 20000+ imgs to 1700 pics, and use 300 pics as the validation set.
