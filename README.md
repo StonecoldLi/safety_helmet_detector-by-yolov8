@@ -51,7 +51,7 @@
   - All the training code in this part were uploaded to the model_kaggle_1700 folder.
 
   ### Results
-    For testing dataset, let us see how each model performed on the certain picture:
+  For testing dataset, let us see how each model performed on the certain picture:
   #### pic_2292
   - yolov8-nano, 20 epochs:
     
@@ -73,7 +73,7 @@
     
     ![image](model_kaggle_1700/result/helm_002292_yolov8s_pt.jpg)
 
-    What about during the same epochs, different models' performance:
+  What about during the same epochs, different models' performance:
   #### pic_2116 (with 2 helmet label and 1 head label)
   
   - yolov8-nano, 50 epochs:
